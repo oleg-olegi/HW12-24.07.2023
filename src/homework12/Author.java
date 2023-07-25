@@ -24,7 +24,4 @@ public class Author {
     public void setSurname(String surname) {
         this.surname = surname;
     }
-    public static void printAuthor(String name, String surname) {
-        System.out.println("Имя - " + name+"\n" + "Фамилия - "+surname);
-    }
 }
