@@ -14,9 +14,14 @@ public class MainClass {
         Book vii = new Book("Вий", gogol, 1010);
 
         System.out.println("turgenev.getName()+ \" \" + turgenev.getSurname() = " + turgenev.getName() + " " + turgenev.getSurname());
+        System.out.println(mumu.getDateOfPublishing());
+        System.out.println("vii.getBookName() = " + vii.getBookName());
+
         mumu.setDateOfPublishing(2025);
         System.out.println(mumu.getDateOfPublishing());
-        vii.setBookName("ВИИИЙ");
-        System.out.println("vii.getBookName() = " + vii.getBookName());
+
+        System.out.println(mumu.getAuthor());
+
+        turgenev.printAuthor(turgenev.getName(), turgenev.getSurname());
     }
 }

@@ -23,15 +23,7 @@ public class Book {
         return this.dateOfPublishing;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
-    public void setAuthor(String Author) {
-        this.author = author;
-    }
-
-    public void setDateOfPublishing(int dateOfPublishing) {
-        this.dateOfPublishing = dateOfPublishing;
+    public void setDateOfPublishing(int year) {
+        this.dateOfPublishing = year;
     }
 }
