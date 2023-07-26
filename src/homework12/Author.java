@@ -9,12 +9,12 @@ public class Author {
         this.surname = surname;
     }
 
-    String getName() {
-        return this.name;
+    public String getName() {
+        return name;
     }
 
-    String getSurname() {
-        return this.surname;
+    public String getSurname() {
+        return surname;
     }
     public void printAuthor(String name, String surname) {
         System.out.println(this.name + " " + this.surname);

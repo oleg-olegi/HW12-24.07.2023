@@ -1,18 +1,20 @@
 package homework12;
 
 public class Book {
-    private String bookName;
+    private String title;
     private Author author;
     private int dateOfPublishing;
 
-    public Book(String bookName, Author author, int dateOfPublishing) {
-        this.bookName = bookName;
+
+    public Book(String title, Author author, int dateOfPublishing) {
+        this.title = title;
         this.author = author;
         this.dateOfPublishing = dateOfPublishing;
+
     }
 
-    public String getBookName() {
-        return this.bookName;
+    public String getTitle() {
+        return this.title;
     }
 
     public Author getAuthor() {
