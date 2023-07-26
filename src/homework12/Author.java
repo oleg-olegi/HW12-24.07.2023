@@ -10,13 +10,17 @@ public class Author {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getSurname() {
-        return surname;
+        return this.surname;
     }
-    public void printAuthor(String name, String surname) {
+    public String getAuthor() { //
+        return this.name +" "+ this.surname;
+    }
+    public void printAuthor( ) { //метод для вывода автора
+
         System.out.println(this.name + " " + this.surname);
     }
 }

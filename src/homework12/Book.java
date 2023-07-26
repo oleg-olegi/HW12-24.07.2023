@@ -2,13 +2,13 @@ package homework12;
 
 public class Book {
     private String title;
-    private Author author;
+    private Author authorName;
     private int dateOfPublishing;
 
 
-    public Book(String title, Author author, int dateOfPublishing) {
+    public Book(String title, Author authorName, int dateOfPublishing) {
         this.title = title;
-        this.author = author;
+        this.authorName = authorName;
         this.dateOfPublishing = dateOfPublishing;
 
     }
@@ -17,8 +17,8 @@ public class Book {
         return this.title;
     }
 
-    public Author getAuthor() {
-        return author;
+    public Author getAuthorName() {
+        return this.authorName;
     }
 
     public int getDateOfPublishing() {
@@ -27,5 +27,10 @@ public class Book {
 
     public void setDateOfPublishing(int year) {
         this.dateOfPublishing = year;
+    }
+    public void printBook () {
+        System.out.println("Назание " + title);
+        System.out.println("Автор " + authorName.getAuthor());
+        System.out.println("Год публикации " +dateOfPublishing);
     }
 }
