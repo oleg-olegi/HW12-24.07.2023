@@ -19,8 +19,4 @@ public class Author {
     public String getAuthor() { //
         return this.name +" "+ this.surname;
     }
-    public void printAuthor( ) { //метод для вывода автора
-
-        System.out.println(this.name + " " + this.surname);
-    }
 }
