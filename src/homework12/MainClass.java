@@ -12,9 +12,7 @@ public class MainClass {
         mumu.setDateOfPublishing(2025);
         System.out.println(mumu.getDateOfPublishing());
 
-        System.out.println(mumu.getAuthorName());
-
-        turgenev.printAuthor();
+        System.out.println(turgenev.getAuthor());
         mumu.printBook();
     }
 }
